@@ -1,0 +1,185 @@
+/*IT23157446 B.A.L.M.U. Bogoda Arachchi*/
+body{
+	background-image:url("../images/Lbody2.jpg");
+	
+	background-repeat:no repeat;
+	background-size:cover;	
+	color:white;
+	font-family:sans-serif,arial;
+	backdrop-filter:brightness(60%);
+}
+
+h1{
+	text-align:center;
+	color:indianred ;
+	font-size:60px;
+	text-shadow:3px 3px 4px black,1px 0 black, 0 -1px black;
+	
+}
+
+h1:hover{
+	
+	color:bisque;
+}
+
+
+
+#paraText1{
+	padding-left:10px;
+	padding-right:10px;
+	text-align:center;
+	font-size:20px;
+	text-shadow:3px 3px 4px black;
+}
+
+h2{
+	color:bisque ;
+	font-size:35px;
+	text-shadow:3px 3px 4px black;
+	
+}
+
+h2:hover{
+	color:#CE7E1D;
+}
+
+.center2
+{
+	display:flex;
+	justify-content:center;
+}
+
+.center1
+{
+	margin-right:20%;
+	margin-left:-80%;
+	text-shadow:3px 3px 4px black;
+	justify-content:center;
+	
+}
+#text2
+{
+	font-size:22px;
+	margin-right:20%;
+}   
+
+b:hover{
+	color:#CC9653;
+}
+
+/*css for buttons*/
+.text3
+{
+	font-size:20px;
+	font-weight:bold;
+	background-color:#CC9653;
+	text-decoration:none;
+	border-radius:10px;
+	color:bisque;
+	text-align:center;
+	padding:20px 30px 20px 30px;
+	text-shadow:3px 3px 4px black;
+	box-shadow:5px 5px #333333;
+	
+}
+
+.text3:hover
+{
+	background-color:#CE7E1D;
+}
+
+a{
+	color:white;
+	font-weight:bold;	
+	text-decoration:none;
+}
+
+.imageP img{
+	transition:opacity 0.8s ease;
+	margin-right:20px;
+	border-style:groove;
+	border-radius:5%;
+	box-shadow:5px 5px #333333;
+	
+}
+
+.imageP img:hover{
+	opacity:0.6;
+}
+
+
+
+.imageL img{
+	transition:opacity 0.8s ease;
+	border-style:groove;
+	margin-left:10%;
+	border-radius:5%;
+	box-shadow:5px 5px #333333;
+	
+	
+
+}
+
+.imageL img:hover{
+	opacity:0.6;
+}
+
+
+.change1
+{
+	color:#CE7E1D;
+}
+
+.change1:hover
+{
+	color:brown;
+}
+
+
+.div1
+{
+	height: 100%;
+}
+
+
+.table
+{
+	background-image:none;
+}
+
+
+/*css for userId text field*/
+.Userview
+{
+
+	font-size:30px;
+	border-style:groove;
+	border-color:#FFA07A;
+	border-width:5px;
+	width:50%;
+	padding:20px 20px 20px 20px;
+	
+}
+
+.text4{
+	font-size:20px;
+	font-weight:bold;
+	background-color:#051050;
+	text-decoration:none;
+	border-radius:10px;
+	color:white;
+	padding:2% 2% 2% 2%;
+	box-shadow:5px 5px #010a32;
+	text-shadow:3px 3px 4px black;
+			
+}	
+						
+.text4:hover
+{
+	background-color:#282a97;
+	cursor:pointer;
+}
+.tableL
+{
+	background-image:none;
+}

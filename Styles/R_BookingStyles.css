@@ -1,0 +1,54 @@
+/*IT23157132 J.A.S.R.Jayakody*/
+
+body{
+	background-image:url("../Images/R_Background.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:0;
+	margin:0;
+	backdrop-filter:brightness(60%);
+}
+
+	
+	
+.size{
+	width:60%;
+	height:60%;
+	border-radius:100px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:50px;
+	box-shadow:0 0 10px 10px rgba(237,250,222,0.3);
+	margin-top:50px;
+	}
+
+.btn1{
+	background:linear-gradient(to bottom,#f1f6b6,#eafa91);
+	width:40%;
+	height:3em;
+	font-size:15px;
+	border-radius:10px;
+	box-shadow:0 0 5px 5px rgba(222,255,250,0.3);
+	cursor:pointer;
+	}
+.content{
+	color:white;
+	font-size:20px;
+}
+.size:hover{
+	opacity:0.6;
+}
+.btn1:hover{
+	color:green;
+	opacity:0.8;
+}
+#s2{
+	display: none;
+}
+#s4{
+	display: none;
+}
+#s6{
+	display: none;
+}

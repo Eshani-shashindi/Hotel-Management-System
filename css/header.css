@@ -1,0 +1,23 @@
+/*IT23157132 J.A.S.R.Jayakody*/
+.logo{
+    width: 60%;
+    height: 60%;
+}
+
+.button{
+    padding: 10px 10%;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 150px;
+    background-color: rgba(106, 106, 109, 0.379);
+    backdrop-filter: blur(20px)
+}
+
+header {
+    
+    top:0;
+    width:100%;
+	
+}

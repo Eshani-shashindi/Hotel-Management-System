@@ -1,0 +1,41 @@
+/*IT23157132 J.A.S.R.Jayakody*/
+
+body{
+    background-image:url("../Images/R_bot.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:0;
+	margin:0;
+	backdrop-filter:brightness(60%);
+}
+tr{
+    height: 75px;
+}
+td{
+    color:whitesmoke;
+    padding-left: 50px;
+}
+legend{
+    font-size: larger;
+    color: beige;
+}
+.in{
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size:medium;
+    width: 100px;
+    cursor:pointer;
+    background-color: rgb(80, 80, 80);
+    color: aliceblue;
+   
+}
+.in1{
+    background-color: rgb(127, 127, 127);
+    box-shadow:0 0 3px 3px white;
+    width:200%;
+    opacity: 70%;
+}
+::placeholder{
+    color: #313131;
+   
+}

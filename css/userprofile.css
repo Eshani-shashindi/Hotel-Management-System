@@ -1,0 +1,79 @@
+/*IT23164826
+DISANAYAKA E.S*/
+
+.divSection{
+    display: inline-block;
+    margin: 3%;
+    vertical-align: top;
+}
+
+.profilePicImg{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profilePicImg img{
+    width: auto;
+    height: 100%;
+    display: block;
+}
+
+.profilePicUpload{
+    border: none;
+    background: rgb(228, 236, 243);
+    color:rgb(3, 119, 221);
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 10px 16px;
+}
+ 
+.alignRight{
+    text-align:right;
+}
+
+.alignLeft{
+    text-align: left;
+}
+.table1{
+    border-collapse: collapse;
+    background-color: rgba(54, 54, 54, 0.361);
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    font-family:"Poppins", sans-serif;
+    height: 100%;
+    width: 150%;
+    backdrop-filter: blur(3px);
+}
+
+.table1 td{
+    width: 137px;
+    padding: 10px;
+}
+
+
+input{
+    border-radius: 20px;
+    background-color: rgba(217, 218, 218, 0.737);
+    border: none;
+    padding: 5px;
+    height: 35px;
+    width: 190px;
+}
+
+
+button{
+    border: none;
+    width: 10%;
+    height: 35px;
+    background: rgb(225, 225, 225);
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(0, 20, 8);
+    text-decoration: none;
+}
+

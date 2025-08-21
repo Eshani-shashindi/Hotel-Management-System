@@ -1,0 +1,95 @@
+<!--IT23164826
+     DISANAYAKA E.S-->
+<html>
+    <head>
+        <title>User Login</title>
+        <link rel="stylesheet" href="css/userprofile.css">
+        <style>
+            body{
+                background-image: url('images/EUserProfileBg.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        </style>
+
+        <script src = "js/userprofile.js"> </script>
+    </head>
+    <body>
+        <div id ="UserProfileDiv" class = "divSection">
+			
+            <table border="0px" class = "table1">
+			
+                <tr>
+                    <th colspan="2"><br>
+                        <h1>Your Profile</h1>
+                    </th>
+                </tr>
+                <tr>
+                    <th colspan="2">
+                        <img id="profilePic" src="images/EUserAvatar.png" alt ="Profile Picture" class = "profilePicImg">
+                        <br><br>
+                        <label for="profilePicBtn" class= "profilePicUpload">Upload Profile Picture</label>
+                        <input type = "file" accept = "image/*" id ="profilePicBtn" style="display:none"><br><br><br><br>
+                    </th>
+                </tr>
+                         
+
+                
+
+                <tr>
+                    <td class="alignRight">UserId:</td>
+                    <td>
+                        <input type="text" id="userId" name="userId" maxlength="4" placeholder="1">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="alignRight"> First Name:</td>
+                    <td>
+                        <input type="text" id ="firstName" name = "firstName" >
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="alignRight"> Last Name:</td>
+                    <td>
+                        <input type="text" id ="lastName"  name = "lastName">
+                    </td>
+				</tr>
+				<tr>
+				     <td class="alignRight"> Password:</td>
+					<td>
+					<input type = "password"  name = "password" id ="password" required>
+					</td>
+                </tr>
+
+                <tr>
+                    <td class="alignRight"> Moblile Number:</td>
+                    <td>
+                        <input type="tel" id ="telephone" name = "MobileNumber">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="alignRight"> Email:<br></td>
+                    <td>
+                        <input type="email" id ="email"  name = "email"> <br><br>
+                    </td>
+                </tr>
+
+                <tr> 
+                    <th><button style="width: 100px;">Update</button></th>
+                   <th><button style="width: 100px;"><a href="DeleteButton.php" style="text-decoration: none;">Delete</a></button>
+                   </th>
+				   </tr>
+			<tr>
+                <th colspan="2">
+			        <button style="width:120px;"><a href="view.html" style="text-decoration: none;">View Details</a></button>
+                </th>
+			</tr>
+			</table>
+			
+		
+        </div>
+    </body>
+</html>

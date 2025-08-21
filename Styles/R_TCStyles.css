@@ -1,0 +1,24 @@
+/*IT23157132 J.A.S.R.Jayakody*/
+
+.text{
+	text-align:center;
+}
+.text1{
+	border:3px solid black;
+	border-style:inset;
+	width:10%;
+	padding:20px;
+	margin-bottom:0px;
+	background-color:#f1f6b6;
+}
+hr{
+	border:1px solid black;
+	margin-top:0px;
+}
+p{
+	font-size:20px;
+	padding:20px 150px 20px 150px;
+}
+h2{
+	padding-left:150px;
+}

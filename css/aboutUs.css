@@ -1,0 +1,99 @@
+/*IT23157446 B.A.L.M.U. Bogoda Arachchi*/
+body
+{
+	font-size:25px;
+	background-color:#FFFFE0;
+	font-family:sans-serif,arial;
+	justify-content:center;
+	align-items:center;
+	
+}
+
+h1
+{
+	color:#B8860B;
+	text-shadow:3px 3px 4px black;
+}
+
+hr
+{
+	color:#B8860B;
+	
+}
+
+h1:hover
+{
+	color:#8B8000;
+}
+
+p
+{
+	
+	text-align:center;
+	padding:20px 30px 20px 30px;
+	
+}
+
+.list1
+{
+	list-style-position:inside;
+	
+	
+}
+
+h2
+{
+	text-align:center;
+	color:#B8860B;
+	text-shadow:1px 1px 2px black;
+}
+
+h2:hover
+{
+	color:#8B8000;
+}
+
+p:hover
+{
+	color:#6B411A;
+}
+
+b:hover
+{
+	color:#8B8000;
+}
+
+ul:hover
+{
+	color:#6B411A;
+}
+
+.img1
+{
+	text-align:center;
+	
+}
+.img1 img
+{
+	width:200px;
+	height:auto;
+}
+
+.div1
+{
+	text-align:center;
+}
+
+.img1 img{
+	transition:opacity 0.2s linear;
+}
+
+.img1 img:hover
+{
+	opacity:0.8;
+}
+
+.table1
+{
+	padding-left:150px;
+}
